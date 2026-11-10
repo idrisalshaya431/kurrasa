@@ -1,0 +1,15 @@
+{
+  "name": "kurrasa-irs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "مساعد كراسة الشروط والمواصفات — معهد البحوث والدراسات، جامعة الأمير مساعد بن عبدالرحمن",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build/build.mjs",
+    "build:cdn": "node build/build.mjs --cdn",
+    "start": "node server/node/server.mjs",
+    "test": "node tests/e2e.mjs"
+  },
+  "devDependencies": { "playwright": "^1.47.0" }
+}
